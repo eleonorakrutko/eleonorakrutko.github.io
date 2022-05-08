@@ -1,0 +1,224 @@
+@import url("barkentina.css");
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+body{
+background-color: rgba(88, 131, 84, 0.647);
+font-family: 'Barkentina';
+background-image: url(../img/bc.png);
+background-repeat: repeat;
+}
+
+.wrapper {
+    max-width: 1000px;
+    margin: 10px auto;
+    background-color: rgb(155, 202, 170);
+}
+
+img{
+    max-width: 100%;
+}
+
+header{
+    text-align: center;
+    padding: 10px 20px;
+    background-color: rgb(92, 197, 117);
+}
+
+header em{
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.wrapper p, h1, h2 {
+    padding: 10px 20px;
+}
+
+nav h1{
+    display: block;
+    background-color: rgb(243, 121, 0);
+    text-align: center;
+    font-style: oblique;
+    letter-spacing: 10px;
+    border: 5px solid rgb(215, 108, 20);
+    text-shadow: rgb(253, 236, 0) 5px 3px 5px;
+}
+
+nav a{
+    text-decoration: none;
+    background-color: rgba(245, 98, 0, 0.636);
+    padding: 2px 10px;
+    color: black;
+}
+
+nav a:hover{
+  background-color:  rgba(155, 202, 170, 0.7);
+  border-radius: 10px;
+  color: green;
+  transition: 0.4s;
+}
+nav{
+    text-align: center;
+}
+nav li{
+    display: inline-block;
+    list-style: none;
+    margin: 5px 0;
+    padding: 5px 0;
+}
+
+.nav1{
+    background-color: rgb(231, 255, 0);
+}
+.nav2{
+    background-color: rgb(231, 235, 6);
+}
+.nav3{
+    background-color: rgb(231, 215, 6);
+}
+.nav4{
+    background-color: rgb(231, 195, 6);
+}
+.nav5{
+    background-color: rgb(231, 175, 6);
+}
+
+nav li:nth-child(odd){
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+main h2{
+    display: block;
+    text-align: center;
+    background-color: rgb(15, 102, 14);
+    border: 2px solid black;
+}
+article:nth-child(even){
+    background-color: rgba(153, 255, 144, 0.427);
+}
+article:nth-child(odd){
+    background-color: rgba(19, 185, 4, 0.286);
+}
+
+
+#note1{
+    display: inline-block;
+    outline: 1px solid black;
+    padding: 0 5px;
+}
+
+#note1:hover{
+    background-color: #fff;
+    color: red;
+}
+
+#note2{
+    display: inline-block;
+    outline: 1px solid black;
+    padding: 0 5px;
+}
+
+#note2:hover{
+    background-color: #fff;
+    color: red;
+}
+
+#note3{
+    display: inline-block;
+    outline: 1px solid black;
+    padding: 0 5px;
+}
+
+#note3:hover{
+    background-color: #fff;
+    color: red;
+}
+
+#note4{
+    display: inline-block;
+    outline: 1px solid black;
+    padding: 0 5px;
+}
+
+#note4:hover{
+    background-color: #fff;
+    color: red;
+}
+
+#note5{
+    display: inline-block;
+    outline: 1px solid black;
+    padding: 0 5px;
+}
+
+#note5:hover{
+    background-color: #fff;
+    color: red;
+}
+
+.footer{
+    text-align: center;
+    display: block;
+    height: 500px;
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150%;
+    opacity: 0.5;
+    transition: 0.6s;
+}
+.footer:hover{
+    background-size: 100%;
+    opacity: 1;
+}
+
+.footer a{
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: rgb(24, 129, 0);
+    border-radius: 50%;
+    color: black;
+    border: 2px solid black;
+    padding: 10px 15px;
+    margin-top: 250px;
+}
+.footer a:hover{
+    background-color: rgba(238, 169, 32, 0.705);
+    transition: 0.4s;
+}
+
+.help p{
+    background-color: rgba(87, 144, 228, 0.696);
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
+.help a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: rgb(11, 62, 104);
+    text-align: center;
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 50%;
+    
+}
+.help a:hover{
+    background-color: rgba(171, 107, 107, 0.796);
+    transition: 0.3s;
+}
+
+
